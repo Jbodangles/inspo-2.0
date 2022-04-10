@@ -13,7 +13,7 @@ def get_quote():
     return quote
 
 # Token
-token = "OTM5NzE0OTg0NjAxMDc1Nzgz.Yf83xw.-BJLgFveKj_UXh84IG13aysqPi0"
+token = "OTYyODYxMDI2MjAwNjUzODM0.YlNsNQ.AzrmJwWzUazrLZXFQ7-BvTRvlaY"
 
 @client.event
 async def on_ready():
