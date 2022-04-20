@@ -5,7 +5,7 @@ import json
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv(os.getenv(TOKEN))
 
 # Initialization
 client = discord.Client()
@@ -44,4 +44,4 @@ async def on_message(message):
         quote = get_quote()
         await message.channel.send(quote)
 
-client.run(os.getenv('TOKEN'))
+client.run(token)
